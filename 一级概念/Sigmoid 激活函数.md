@@ -1,5 +1,0 @@
-- [[Sigmoid 激活函数]]
-- 内容方向：
-- LeNet 为何使用 Sigmoid（历史局限性：早期计算资源限制）
-- 缺点：梯度消失问题对 LeNet 深层训练的影响（对比 ReLU 在 AlexNet 中的突破）
-- 代码验证：在 LeNet 中替换 Sigmoid 为 ReLU 的性能变化实验
