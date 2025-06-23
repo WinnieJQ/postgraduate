@@ -33,10 +33,55 @@
               },
               "icon": "lucide-file",
               "title": "前奏："
-            }
+            },
+            "group": "c02feffd4c31b192"
           }
         ],
         "currentTab": 1
+      },
+      {
+        "id": "74707058148d0e24",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e0e21b67571cf102",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "前奏：.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 1,
+                  "close": true
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "前奏： 的关系图"
+            },
+            "group": "c02feffd4c31b192"
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -186,8 +231,8 @@
   },
   "active": "83d262e51172e695",
   "lastOpenFiles": [
-    "2025-06-23.md",
     "前奏：.md",
+    "2025-06-23.md",
     "一级概念/全连接层.md",
     "一级概念/池化层.md",
     "模型/transformer.md",
