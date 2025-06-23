@@ -6,7 +6,7 @@
       {
         "id": "62a1c0484d0f704e",
         "type": "tabs",
-        "dimension": 74.03846153846155,
+        "dimension": 74.03846153846153,
         "children": [
           {
             "id": "3655c10da387de35",
@@ -241,7 +241,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fc287fb3d6a2a45d",
+  "active": "90e22c9abdaaf579",
   "lastOpenFiles": [
     "总览.md",
     "杂项/Obsidian和GitHub互通.md",
