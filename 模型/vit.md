@@ -1,0 +1,12 @@
+---
+tags:
+  - 模型类型/Transformer
+  - "#任务/图像分类"
+  - "#知识域/注意力机制"
+---
+- ViT（Vision Transformer ）
+- 关键定位：Transformer 在 CV 落地的标志性模型，证明纯 Transformer 可做图像任务，推动 CV 架构变革。
+- 学习深化：
+- 原理对比：对比 ViT 与传统 CNN（如 ResNet ），分析 ViT 如何用自注意力替代卷积提取特征（卷积是局部固定感受野，自注意力是全局动态关联 ）。研究 ViT 论文《An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale》里的 patch embedding（图像分块线性投影成 token ）、位置编码（给 token 加位置信息，让模型感知顺序 ）设计，理解这些对图像特征建模的影响。
+- 实践对比：在大规模图像数据集（如 ImageNet - 21k ）和小数据集（CIFAR - 100 ）分别实验，对比 ViT 和 CNN 模型的精度、训练效率。尝试改进 ViT，比如结合 CNN 做混合架构（如 CNN 提取初始特征，再用 Transformer 处理 ），或优化位置编码（动态位置编码适配不同图像尺寸 ），观察效果变化。
+- 落地适配：研究 ViT 在工业场景的部署（如模型压缩、量化 ），因为纯 ViT 参数量大，需适配边缘设备。了解其在细粒度分类（如植物、文物识别 ）、图像生成辅助（配合 GAN ）等任务的应用，拓展 CV 研究思路。

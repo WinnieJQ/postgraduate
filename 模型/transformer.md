@@ -1,0 +1,12 @@
+---
+tags:
+  - "#模型类型/Transformer"
+  - "#阶段/进阶"
+  - "#知识域/注意力机制"
+---
+- Transformer
+- 革命意义：打破 CNN、RNN 主导局面，基于自注意力（Self - Attention）机制，在 NLP（自然语言处理 ）、CV（计算机视觉 ）等多领域一统天下，是大模型核心架构。
+- 学习推进：
+- 原理攻坚：从 NLP 经典论文《Attention Is All You Need》入手，理解自注意力如何计算（对序列中每个位置，计算与其他位置的关联权重，聚合信息 ）、Transformer encoder - decoder 结构（encoder 提取文本全局特征，decoder 做生成，如机器翻译 ）。延伸到 CV 领域，学习 ViT（Vision Transformer，把图像分 patch 当序列处理 ）时，理解如何适配视觉任务（图像 patch 的 token 化、位置编码设计 ）。掌握多头注意力（Multi - Head Attention，多个自注意力并行，捕捉不同维度关联 ）、层归一化（Layer Norm，稳定训练 ）等关键模块。
+- 代码深挖：用 PyTorch 实现基础 Transformer，做简单文本任务（如单词预测、短文本分类 ）。再实现 ViT，在 CIFAR - 10、ImageNet 数据集上跑实验，对比 CNN 模型（如 ResNet ），观察在长距离依赖建模、大模型缩放性上的优势。尝试用 Hugging Face Transformers 库加载预训练模型（如 BERT、GPT - 2 ），微调做下游任务（文本分类、问答 ），理解迁移学习流程。
+- 生态拓展：关注 Transformer 在多模态（如图文结合 ）、大模型（如 GPT - 4、LLaMA ）的应用，学习模型并行、分布式训练等工程技巧，理解其撑起 “大模型时代” 的技术逻辑。

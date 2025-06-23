@@ -1,22 +1,51 @@
 {
-  "collapse-filter": true,
+  "collapse-filter": false,
   "search": "",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
-  "colorGroups": [],
-  "collapse-display": true,
-  "showArrow": false,
-  "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1,
-  "collapse-forces": true,
-  "centerStrength": 0.518713248970312,
-  "repelStrength": 10,
-  "linkStrength": 1,
-  "linkDistance": 250,
-  "scale": 1,
-  "close": true
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "tag:#指挥  ",
+      "color": {
+        "a": 1,
+        "rgb": 16722217
+      }
+    },
+    {
+      "query": "tag:#模型类型/CNN  ",
+      "color": {
+        "a": 1,
+        "rgb": 6066646
+      }
+    },
+    {
+      "query": "tag:#模型类型/Transformer  ",
+      "color": {
+        "a": 1,
+        "rgb": 6615662
+      }
+    },
+    {
+      "query": "tag:#模型类型/生成模型  ",
+      "color": {
+        "a": 1,
+        "rgb": 16743992
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": true,
+  "textFadeMultiplier": -0.7,
+  "nodeSizeMultiplier": 1.60051903114187,
+  "lineSizeMultiplier": 1.93961937716263,
+  "collapse-forces": false,
+  "centerStrength": 0.302768166089965,
+  "repelStrength": 5.22491349480969,
+  "linkStrength": 0.953287197231834,
+  "linkDistance": 302,
+  "scale": 0.7132754626224466,
+  "close": false
 }

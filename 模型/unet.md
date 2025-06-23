@@ -1,0 +1,12 @@
+---
+tags:
+  - 模型类型/CNN
+  - "#任务/图像分割"
+  - "#知识域/卷积原理"
+---
+- UNet
+- 核心应用：医学图像分割（如 CT、MRI 图像分割器官、病灶 ）、语义分割（给图像每个像素分类 ），基于 CNN， encoder - decoder 结构经典。
+- 学习步骤：
+- 原理拆解：看论文《U - Net: Convolutional Networks for Biomedical Image Segmentation》，理解 encoder（下采样，逐步提取高层语义特征，像从边缘到器官轮廓 ）、decoder（上采样，恢复空间信息，将高层特征与底层细节融合 ），以及跳跃连接（把 encoder 不同层特征传给 decoder，补充细节，避免信息丢失 ）。
+- 实践操作：找医学图像公开数据集（如 BraTS 脑肿瘤、ISIC 皮肤癌数据集 ），或用通用语义分割数据集（如 Cityscapes ）。用 PyTorch 实现 UNet，对比有无跳跃连接的效果差异；调整网络深度、通道数，看对分割精度（如 Dice 系数、IOU ）和速度的影响。
+- 拓展延伸：了解 UNet 变体（如 UNet++、Attention UNet ），学习如何改进（加注意力机制突出关键区域、优化跳跃连接 ），适配更复杂分割任务。
